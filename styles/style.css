@@ -10,19 +10,19 @@
 
 body {
   font-family: sans-serif;
-  background-image: url(images/gmailscreen.png);
+  background-image: url(../images/gmailscreen.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-header{
+header {
   width: 77.5%;
   margin-top: 8.6em;
   margin-left: 19.9em;
 }
 
 .container {
-  background-color: #4385F5;
+  background-color: #4385f5;
   display: flex;
   align-items: center;
   height: 6em;
@@ -40,7 +40,7 @@ header{
 }
 
 button.blue {
-  color: #4385F5;
+  color: #4385f5;
   background: #fff;
   border: 1px #3079ed solid;
   box-shadow: inset 0 1px 0 #80b0fb;
@@ -49,7 +49,7 @@ button.blue {
   border-radius: 2em;
 }
 button.blue:hover {
-  border: 1px #00A050 solid;
+  border: 1px #00a050 solid;
   background: #17bd6a;
   color: #fff;
 }
@@ -81,7 +81,7 @@ form {
   transform: translateX(0);
 }
 
-form  .closebut {
+form .closebut {
   background-color: #ddd9;
   position: absolute;
   right: var(--size-white-space);
@@ -94,8 +94,8 @@ form  .closebut {
   padding: 2em;
 }
 
-form  .closebut::before,
-form  .closebut::after {
+form .closebut::before,
+form .closebut::after {
   content: '';
   position: absolute;
   transform: rotate(45deg) scaleX(var(--scaleFactor, 1.33));
@@ -106,10 +106,10 @@ form  .closebut::after {
   transition: inherit;
 }
 
-form  .closebut::before {
+form .closebut::before {
   transform: rotate(45deg);
 }
-form  .closebut::after {
+form .closebut::after {
   transform: rotate(-45deg);
 }
 .formContainer {
@@ -211,7 +211,7 @@ form .formchild:nth-of-type(2) img:last-of-type {
   border-radius: 5px;
 }
 
-.barchart img{
+.barchart img {
   position: relative;
   bottom: 0.5em;
 }
@@ -222,7 +222,6 @@ input {
   background-color: #f3f021;
   cursor: pointer;
   position: relative;
- 
 }
 
 .barchart:nth-of-type(1) input {
@@ -249,7 +248,7 @@ input:checked {
   display: none;
 }
 
-.mySlides:first-of-type{
+.mySlides:first-of-type {
   background-color: #eaeaea;
 }
 .butright {
@@ -260,14 +259,13 @@ input:checked {
   width: 10em;
   opacity: 0;
 }
-.butleft{
+.butleft {
   position: absolute;
   left: 1em;
   bottom: 1em;
   height: 10em;
   width: 10em;
   opacity: 0;
-
 }
 
 .prullenbak {
@@ -298,7 +296,6 @@ input:checked {
   margin-left: auto;
   margin-right: auto;
   height: 20%;
-  
 }
 #co2 {
   position: absolute;
@@ -368,7 +365,7 @@ input:checked {
   height: 100%;
   width: 100%;
   background-color: #000000;
-  opacity: .7;
+  opacity: 0.7;
   position: absolute;
   top: 0;
 }
@@ -382,46 +379,43 @@ input:checked {
   padding: 2em;
 }
 
-h2{
+h2 {
   height: 2em;
   width: 10em;
   font-weight: 600;
   font-size: 20px;
-  padding-top: .5em;
-  
+  padding-top: 0.5em;
 }
 
-.message-popup p{
+.message-popup p {
   margin-top: 2.5em;
   width: 18em;
 }
 
-.message-popup img{
+.message-popup img {
   position: absolute;
   right: 7em;
   bottom: 8em;
   width: 5em;
-  
 }
 
-.message-popup button{
-  background-color: #4385F5;
+.message-popup button {
+  background-color: #4385f5;
   height: 3em;
   width: 11em;
   border: none;
   color: white;
-  font-size:medium;
+  font-size: medium;
   border-radius: 5px;
   margin-left: 11em;
   margin-top: 3em;
-
 }
 
-span{
-  color: #4385F5;
+span {
+  color: #4385f5;
 }
 
-.tooltip{
+.tooltip {
   height: auto;
   width: auto;
   background-color: white;
@@ -429,47 +423,45 @@ span{
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-#chart{
+#chart {
   top: 1.5em;
   position: relative;
 }
 
-#chart1{
+#chart1 {
   display: flex;
   justify-content: center;
   top: 1.5em;
   position: relative;
 }
 
-.navimg{
+.navimg {
   position: relative;
   left: 2em;
   top: 4em;
 }
 
-.kg{
+.kg {
   position: relative;
   left: 2.5em;
   bottom: 3em;
 }
 
-.gmail{
+.gmail {
   margin-left: 2em;
   margin-top: 45em;
 }
 
-#authorize_button{
+#authorize_button {
   margin-left: 2.3em;
-  
 }
 
-#myMovie{
-
+#myMovie {
   height: 100vh;
   width: 100%;
 }
 
-.cover{
+.cover {
   background-color: #eaeaea;
   height: 100vh;
   width: 3em;
