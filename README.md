@@ -1,7 +1,7 @@
 # GreenG4
 
 
-Project Inbformation Design final assessment 
+Project Information Design final assessment 
 
 
 
@@ -10,7 +10,8 @@ This repository is about my project track from data visualisation.
 
 This project is about building a datavislaution from D3 and other frameworks. 
 
-
+## What is your concept?
+Make users conscious of the fact that every email sent and received contributes to CO2 emissions and assist them in taking proactive measures to reduce their carbon footprint by providing them with easy and efficient ways to delete unnecessary emails and reduce their overall email usage.
 
 ## Getting started 
 ### Installation
