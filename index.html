@@ -6,7 +6,7 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Green G Team4</title>
-  
+
 
 </head>
 
@@ -22,10 +22,10 @@
       </div>
 
       <div class="child">
-  
-          <button class="blue">Opschonen</button>
-        </div>
-      </section>
+
+        <button class="blue">Opschonen</button>
+      </div>
+    </section>
 
   </header>
   <main>
@@ -33,19 +33,21 @@
     <form>
 
       <button class="closebut" id="closebut" type="button"></button>
-      
+
       <div class="mySlides">
-        <video id="myMovie" style="max-width: 100%; cursor: pointer;">        <source src="/images/video.mp4"/></video>
+        <video id="myMovie" style="max-width: 100%; cursor: pointer;">
+          <source src="/images/video.mp4" />
+        </video>
         <div class="cover"></div>
       </div>
-      
-      
+
+
       <div class="mySlides">
 
         <div class="formContainer">
-          
+
           <section class="formchild">
-          <div id="chart"></div>
+            <div id="chart"></div>
 
           </section>
           <section class="formchild">
@@ -86,7 +88,7 @@
 
         </div>
         <div class="prullenbak">
-          <img src="images/emptybin.png" alt="bin" id="bin">
+          <img src="../images/emptybin.png" alt="bin" id="bin">
           <img src="images/CO2del.png" alt="co2" id="co2">
           <span class="dot"></span>
           <span class="dot"></span>
@@ -118,7 +120,7 @@
 
   </main>
 
-  
+
   <p class="gmail">Gmail API Quickstart</p>
   <!--Add buttons to initiate auth sequence and sign out-->
   <button id="authorize_button" onclick="handleAuthClick()">Authorize</button>
@@ -127,22 +129,22 @@
   <script type="text/javascript">
 
 
-  function loadVideo(){
-      myMovie=document.getElementById('myMovie');
+    function loadVideo() {
+      myMovie = document.getElementById('myMovie');
       myMovie.addEventListener('click', playOrPause, false);
-  }
-  function playOrPause() {
-      if (!myMovie.paused && !myMovie.ended){
-          myMovie.pause();
+    }
+    function playOrPause() {
+      if (!myMovie.paused && !myMovie.ended) {
+        myMovie.pause();
       } else {
-          myMovie.play();
+        myMovie.play();
       }
-  }
-  window.addEventListener('load',loadVideo,false);
+    }
+    window.addEventListener('load', loadVideo, false);
 
 
     var slideIndex = 1;
-      showDivs(slideIndex);
+    showDivs(slideIndex);
 
     function plusDivs(n) {
       showDivs((slideIndex += n));
@@ -164,16 +166,16 @@
     }
 
     function validate() {
-    if (remember.checked == 1) {
-      document.getElementById('bin').src = 'images/fullbin.png';
-      document.getElementById('b1').classList.add('checked');
-      document.getElementById('co2').classList.add('co2animation');
-    } else {
-      document.getElementById('bin').src = 'images/emptybin.png';
-      document.getElementById('b1').classList.remove('checked');
-      document.getElementById('co2').classList.remove('co2animation');
+      if (remember.checked == 1) {
+        document.getElementById('bin').src = 'images/fullbin.png';
+        document.getElementById('b1').classList.add('checked');
+        document.getElementById('co2').classList.add('co2animation');
+      } else {
+        document.getElementById('bin').src = 'images/emptybin.png';
+        document.getElementById('b1').classList.remove('checked');
+        document.getElementById('co2').classList.remove('co2animation');
+      }
     }
-  }
 
     /* exported gapiLoaded */
     /* exported gisLoaded */
@@ -417,7 +419,7 @@
   <script type="module" src="./scripts/main.js"></script>
   <script src="//unpkg.com/d3"></script>
   <script src="//unpkg.com/sunburst-chart"></script>
-  
+
 
 </body>
 
