@@ -3,7 +3,7 @@
 
 Project Information Design final assessment 
 
-![screenshot](https://github.com/Nowyme/tech-track-22-23/blob/main/images/wiki%20img/screenshot.png)
+![screenshot](https://github.com/Nowyme/GreenG/blob/main/images/wiki.png)
 
 ## Introduction
 This repository is about my project track from data visualisation. 
