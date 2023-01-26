@@ -39,7 +39,7 @@ npm run dev
 
 
 ## Documentation 
-[ My process and journey can be found in Wiki ](https://github.com/Nowyme/tech-track-22-23/wiki)
+[ My process and journey can be found in Wiki ](https://docs.google.com/document/d/1i0n9twkrU-Z-WGwsx_ySUMuaM-mysNIHxu30MTpIN48/edit?usp=sharing)
 
 
 ## Authors 
