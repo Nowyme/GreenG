@@ -17,7 +17,7 @@ This project is about building a datavislaution from D3 and other frameworks.
 
 ### Clone repository
 ```
-clone Nowyme/tech-track-22-23
+clone Nowyme/GreenG
 ```
 
 
